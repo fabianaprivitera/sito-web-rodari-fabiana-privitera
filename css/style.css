@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 1);
+    color:rgba(255, 255, 255, 1);
+    margin: 0;
+    justify-content: space-between;
+    display:flex;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav li {
+    margin: 17px 35px;
+}
+
+nav li:hover {
+    cursor: pointer; 
+}
+
+a {
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    margin: auto auto auto 20px;
+    font-size: 24pt;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+span {
+    color: rgba(255, 255, 255, 1);
+    font-family:"Playfair Display", serif;
+        font-weight: 800;
+        font-size: 64px;
+    margin-top: 0;
+    display: block;
+}
+
+.intestazione {
+    background-color: rgba(0, 4, 112, 1);
+    padding-left: 70px;
+    padding-bottom: 70px;
+    padding-bottom: 20px;
+}
+
+main {
+    color: rgba(0, 4, 112, 1);
+}
+
+.primo, .secondo, .terzo {
+    max-width: 1200px;
+    margin: auto;    
+    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 160px;
+}
+
+.primo {
+    margin-top: 70px;
+}
+
+.terzo {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "BenchNine", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+    margin-left: 5%;
+}
+
+p {
+    font-family: "Trirong", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.primo img {
+    height: 400px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.locandine {
+    display: list-item;
+    list-style: none;
+    max-height: 1500px;
+}
+
+.locandine img {
+    object-fit: cover;
+    height: 300px;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+footer {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
+    margin-bottom: 0;
+    padding: 10px;
+    max-width: auto;
+    height: 360px;
+}
+
+.link {
+    display: flex;
+    gap:30%;
+    margin-left: 20%;
+}
+
+footer section p {
+    font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+    margin-left: 30px;
+    text-align: left;
+    max-width: 70%;
+}
+
+.container {
+    position: relative;
+}
+
+.email {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    left: 30px;
+    text-align: left;
+    font-family: "Cormorant Garamond", serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 20px;
+}
+
+.email:hover {
+   cursor: text;
+   display: none; 
+}
+
+.link ul {
+    font-family: "Cormorant Garamond", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+    margin-right: 10%;
+}
+
+.link ul:hover {
+    cursor: pointer; 
+}
+
+.link ul li {
+    margin: 20px;
+}
+
+.line {
+    margin:auto;
+}
+
+.finale {
+    font-family: "Cormorant Garamond", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 23px;
+    margin-left: 10%;
+}
+
+@media (max-width:1200px) {
+    .primo, .secondo, .terzo {
+        gap: 20px;
+    }
+    .link {
+        gap: 15%;
+        margin-bottom: 20px;
+    }
+    .link ul {
+        margin-right: 5%;
+    }
+    .link ul li {
+        margin: 15px;
+    }
+}
+
+@media (max-width:1000px) {
+    .primo, .secondo, .terzo {
+        display: list-item;
+    }
+    .primo img, .locandine {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+}
+
+@media (max-width:850px) {
+    span {
+        font-size: 50px;
+    }
+    nav li {
+        margin: 17px 20px;
+    }
+    main p {
+        font-size: 10pt;
+    }
+    .locandine img {
+        height: auto;
+        width: 200px;
+    }
+    .link {
+        margin-left: 40px;
+        gap: 5%;
+    }
+    .link li {
+        font-size: 20px;
+    }
+    .finale {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:700px) {
+    a {
+        font-size: 18px;
+        margin: auto auto auto 20px;
+    }
+    nav ul {
+        font-size: 10px;
+    }
+    span {
+        font-size: 30px;
+    }    
+    main svg {
+        width: 450px;
+    }
+    h1, h2, h3, h4 {
+        font-size: 25px;
+    }
+    .locandine img {
+        display:list-item;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    footer {
+        height: 300px;
+    }
+    .contatti p {
+        font-size: 30px;
+    }
+    .contatti {
+        margin: auto;
+    }
+    .link li {
+        font-size: 15px;
+    }
+    .inserisci {
+        width: 250px;
+    }
+    .email {
+        font-size: 15px;
+        top: 15px;
+    }
+}
