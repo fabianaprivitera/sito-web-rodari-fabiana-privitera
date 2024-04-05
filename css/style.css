@@ -222,33 +222,6 @@ footer section p {
     }
 }
 
-@media (max-width:850px) {
-    span {
-        font-size: 50px;
-    }
-    nav li {
-        margin: 17px 20px;
-    }
-    main p {
-        font-size: 10pt;
-    }
-    .locandine img {
-        height: auto;
-        width: 200px;
-    }
-    .link {
-        margin-left: 40px;
-        gap: 5%;
-    }
-    .link li {
-        font-size: 20px;
-    }
-    .finale {
-        font-size: 15px;
-    }
-}
-
-
 @media (max-width:700px) {
     a {
         font-size: 14px;
@@ -257,10 +230,16 @@ footer section p {
     nav ul {
         font-size: 10px;
     }
+    nav li {
+        margin: 17px 20px;
+    }
     span {
         font-size: 25px;
         margin-left: 25px;
-    }    
+    }  
+    main p {
+        font-size: 10pt;
+    }  
     main svg {
         width: 250px;
     }
@@ -271,6 +250,8 @@ footer section p {
         display:list-item;
        margin-left: auto;
        margin-right: auto;
+       height: auto;
+        width: 200px;
     }
     footer {
         height: 300px;
@@ -282,6 +263,10 @@ footer section p {
     .contatti {
         margin: auto auto auto 5px;
     }
+    .link {
+        margin-left: 40px;
+        gap: 5%;
+    }
     .link li {
         font-size: 15px;
     }
@@ -292,5 +277,8 @@ footer section p {
         font-size: 15px;
         top: 15px;
         left: 15px;
+    }
+    .finale {
+        font-size: 15px;
     }
 }
