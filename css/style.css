@@ -290,3 +290,16 @@ footer section p {
         top: 15px;
     }
 }
+
+@media (max-width:300px) {
+    main svg {
+        width: 250px; 
+    }
+    a {
+        font-size: 14px;
+        margin: auto auto auto 10px; 
+    }
+    .contatti p {
+        font-size: 25px;
+    }
+}
