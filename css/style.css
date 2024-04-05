@@ -28,10 +28,11 @@ nav ul {
 
 nav li {
     margin: 17px 35px;
+    color: rgb(151, 151, 151); 
 }
 
 nav li:hover {
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 a {
@@ -41,7 +42,7 @@ a {
     margin: auto auto auto 20px;
     font-size: 24pt;
     text-decoration: none;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(151, 151, 151);
 }
 
 span {
@@ -50,14 +51,14 @@ span {
         font-weight: 800;
         font-size: 64px;
     margin-top: 0;
+    margin-left: 60px;
     display: block;
 }
 
 .intestazione {
     background-color: rgba(0, 4, 112, 1);
-    padding-left: 70px;
-    padding-bottom: 70px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
+    padding-top: 10px;
 }
 
 main {
@@ -74,7 +75,7 @@ main {
 }
 
 .primo {
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .terzo {
@@ -257,7 +258,8 @@ footer section p {
         font-size: 10px;
     }
     span {
-        font-size: 30px;
+        font-size: 25px;
+        margin-left: 25px;
     }    
     main svg {
         width: 250px;
