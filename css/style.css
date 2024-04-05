@@ -39,7 +39,7 @@ a {
     font-family: "Libre Bodoni", serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    margin: auto auto auto 20px;
+    margin: auto auto auto 60px;
     font-size: 24pt;
     text-decoration: none;
     color: rgb(151, 151, 151);
@@ -225,7 +225,7 @@ footer section p {
 @media (max-width:700px) {
     a {
         font-size: 14px;
-        margin: auto auto auto 10px;
+        margin: auto auto auto 20px;
     }
     nav ul {
         font-size: 10px;
@@ -235,7 +235,7 @@ footer section p {
     }
     span {
         font-size: 25px;
-        margin-left: 25px;
+        margin-left: 20px;
     }  
     main p {
         font-size: 10pt;
@@ -265,9 +265,9 @@ footer section p {
         margin: auto 0 auto 5px;
     }
     .link {
-        margin-left: 20px;
+        margin-left: 10px;
         margin-right: 0;
-        gap: 2%;
+        gap: 0;
     }
     .link li {
         font-size: 15px;
