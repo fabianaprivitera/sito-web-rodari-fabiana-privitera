@@ -250,8 +250,8 @@ footer section p {
 
 @media (max-width:700px) {
     a {
-        font-size: 18px;
-        margin: auto auto auto 20px;
+        font-size: 14px;
+        margin: auto auto auto 10px;
     }
     nav ul {
         font-size: 10px;
@@ -260,7 +260,7 @@ footer section p {
         font-size: 30px;
     }    
     main svg {
-        width: 450px;
+        width: 250px;
     }
     h1, h2, h3, h4 {
         font-size: 25px;
@@ -274,7 +274,7 @@ footer section p {
         height: 300px;
     }
     .contatti p {
-        font-size: 30px;
+        font-size: 25px;
     }
     .contatti {
         margin: auto;
@@ -288,18 +288,5 @@ footer section p {
     .email {
         font-size: 15px;
         top: 15px;
-    }
-}
-
-@media (max-width:300px) {
-    main svg {
-        width: 250px; 
-    }
-    a {
-        font-size: 14px;
-        margin: auto auto auto 10px; 
-    }
-    .contatti p {
-        font-size: 25px;
     }
 }
