@@ -277,18 +277,20 @@ footer section p {
     }
     .contatti p {
         font-size: 25px;
+        margin-left: 10px;
     }
     .contatti {
-        margin: auto;
+        margin: auto auto auto 5px;
     }
     .link li {
         font-size: 15px;
     }
     .inserisci {
-        width: 250px;
+        width: 200px;
     }
     .email {
         font-size: 15px;
         top: 15px;
+        left: 15px;
     }
 }
