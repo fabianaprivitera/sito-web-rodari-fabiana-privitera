@@ -255,6 +255,7 @@ footer section p {
     }
     footer {
         height: 300px;
+        max-width: auto;
     }
     .contatti p {
         font-size: 25px;
